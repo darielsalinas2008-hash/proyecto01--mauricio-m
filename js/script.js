@@ -22,7 +22,7 @@ function mostrarProductos(lista){
     });
 }
 
-
+//funcion para buscar el tipo 
 function buscar(tipo){
     return tipo === "todos" ? perfumes : perfumes.filter(p => p.tipo === tipo);
 }
