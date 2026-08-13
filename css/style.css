@@ -1,0 +1,13 @@
+
+.columnas{
+column-gap: normal;
+background-color: rgb(218, 255, 246);
+}
+.principal{
+    display: block; 
+    align-items: center;
+}
+.navegador{
+    display: flex;
+    justify-content: center;
+}
