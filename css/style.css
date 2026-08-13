@@ -10,7 +10,8 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     background: #f8f0f5;
-    color: #333
+    color: #333;
+    background:linear-gradient(#6d3b5e, rgb(220, 180, 233))
 }
 
 header {
