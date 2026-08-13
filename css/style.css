@@ -1,13 +1,69 @@
 
 .columnas{
-column-gap: normal;
-background-color: rgb(218, 255, 246);
+display: inline;
+height: 200px;
+width: 200px;
+background-color: #aaa;
 }
-.principal{
-    display: block; 
-    align-items: center;
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f8f0f5;
+    color: #333
 }
-.navegador{
+
+header {
+    background: #6d3b5e;
+    color: white;
+    padding: 20px;
+    text-align: center
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none
+}
+
+main {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    text-align: center
+}
+
+button, select {
+    padding: 10px;
+    margin: 8px
+}
+
+#catalogo {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: center
+}
+
+.perfume {
+    background: white;
+    margin: 10px;
+    padding: 15px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px #aaa
+}
+
+footer {
+    text-align: center;
+    padding: 20px
+}
+.boton1{
+margin: 15px;
+box-shadow: 1px 1px 3px rgb(0, 0, 0);
+width:  300px;
+}
+.boton2{
+margin: 15px;
+box-shadow: 1px 1px 3px rgb(0, 0, 0);
+width:  300px;
 }
