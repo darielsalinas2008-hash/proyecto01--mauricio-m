@@ -79,4 +79,13 @@ if(btnRecomendar){
         $("resultado").textContent = recomendar(String(opcion || "").toLowerCase());
     });
 }
+const btnPrecio = $("btnPrecio");
+if(btnPrecio){
+    btnPrecio.addEventListener("click", () => {
+        const precio = Number(perfumes[0].precio);
+        const worker = new Worker("js/worker.js");
+        worker.postMessage(precio);
+      
+    });
+}
 
